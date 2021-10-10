@@ -145,7 +145,7 @@ def close_application(input):
 def process_text(input):
     try:
         if "who are you" in input or "define yourself" in input:
-            speak = '''Hello, I am veronica. Your personal Assistant.
+            speak = '''Hello, I am veronica. Your futuristic Personal Voice Assistant.
             I am here to make your life easier. 
             You can command me to perform various tasks such as calculating sums or opening applications etcetra'''
             assistant_speaks(speak)
@@ -185,7 +185,7 @@ def process_text(input):
 
 
 if __name__ == "__main__":
-    name ='Shivansh'
+    name ='Saksham'
     assistant_speaks("Hey, " + name + '.')
     assistant_speaks("All Well"+'?')
     assistant_speaks("What do you want me to do?")
